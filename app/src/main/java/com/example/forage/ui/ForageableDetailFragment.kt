@@ -54,11 +54,7 @@ class ForageableDetailFragment : Fragment() {
     private var _binding: FragmentForageableDetailBinding? = null
     private val binding get() = _binding!!
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentForageableDetailBinding.inflate(inflater, container, false)
         // Inflate the layout for this fragment
         return binding.root

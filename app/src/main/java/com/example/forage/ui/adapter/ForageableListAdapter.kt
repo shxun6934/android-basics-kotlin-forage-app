@@ -48,6 +48,7 @@ class ForageableListAdapter(
         override fun areContentsTheSame(oldItem: Forageable, newItem: Forageable): Boolean {
             return oldItem == newItem
         }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ForageableViewHolder {

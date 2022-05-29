@@ -56,11 +56,7 @@ class AddForageableFragment : Fragment() {
         )
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentAddForageableBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -136,6 +132,7 @@ class AddForageableFragment : Fragment() {
                 updateForageable()
             }
         }
+
     }
 
     private fun isValidEntry() = viewModel.isValidEntry(
