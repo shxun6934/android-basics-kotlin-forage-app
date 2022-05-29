@@ -22,5 +22,5 @@ checkstyle_format.report "app/build/reports/ktlint/ktlint-result.xml"
 # android lint
 android_lint.skip_gradle_task = true
 android_lint.filtering = true
-android_lint.report_file = "app/build/reports/lint-results-debug.xml.xml"
+android_lint.report_file = "app/build/reports/lint-results-debug.xml"
 android_lint.lint(inline_mode: true)
