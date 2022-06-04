@@ -24,4 +24,16 @@ proguard-project.txt
 .settings/
 # Android Studio/IDEA
 *.iml
-.idea
+.idea/.name
+.idea/caches
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/libraries
+.idea/misc.xml
+.idea/modules
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+# gem
+vendor/bundle
+.bundle/
